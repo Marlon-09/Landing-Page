@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <nav>
+        <div id="title">
+            <h1>DevUp</h1>
+        </div>
+
+        <ul>
+            <a href="#"><li>Inicio</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Contato</li></a>
+            <a href="#"><li>Serviços</li></a>
+            <a href="#" id="btn"><li>Já tem alguma Conta?</li></a>
+        </ul>
+    </nav>
+
+    <aside>
+       <div>
+        <span class="mdi mdi-menu" onclick="abrirMenu()"></span>
+       </div>
+
+       <div id="barra-menu">
+        <ul id="links">
+            <a href="#"><li>Inicio</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Contato</li></a>
+            <a href="#"><li>Serviços</li></a>
+            <a href="#"><li>Já tem alguma Conta?</li></a>
+        </ul>
+
+       <div class="icones-menu">
+        <span class="mdi mdi-instagram"></span>
+        <span class="mdi mdi-facebook"></span>
+        <span class="mdi mdi-whatsapp"></span>
+        </div>
+
+    </div>
+
+    </aside>
+
+    <main>
+        <div id="text">
+            <h2>Inscreva-se agora</h2>
+            <h2>na Dev Up</h2>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Perspiciatis placeat aspernatur sed quis natus omnis, necessitatibus quaerat debitis.</p>
+
+            <form>
+                <input type="text" class="name" placeholder="Nome" >
+            <input type="email" class="email" placeholder="E-mail">
+            <input type="submit" value="Enviar">
+
+            </form>
+        </div>
+
+        <div id="img">
+            <img src="/img/25469811_developer_male-removebg.png">
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
